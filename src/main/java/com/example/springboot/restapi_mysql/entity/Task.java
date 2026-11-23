@@ -1,4 +1,4 @@
-package com.example.springboot.restapi_mysql;
+package com.example.springboot.restapi_mysql.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

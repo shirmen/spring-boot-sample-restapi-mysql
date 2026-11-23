@@ -1,4 +1,4 @@
-package com.example.springboot.restapi_mysql;
+package com.example.springboot.restapi_mysql.controller;
 
 import jakarta.validation.Valid;
 import java.util.List;
@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 import com.example.springboot.restapi_mysql.TaskDtos.TaskRequest;
 import com.example.springboot.restapi_mysql.TaskDtos.TaskResponse;
+import com.example.springboot.restapi_mysql.entity.Task;
+import com.example.springboot.restapi_mysql.repository.TaskRepository;
 
 @RestController
 @RequestMapping("/api/tasks")

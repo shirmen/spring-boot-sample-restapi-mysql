@@ -1,5 +1,7 @@
 package com.example.springboot.restapi_mysql;
 
+import com.example.springboot.restapi_mysql.entity.Task;
+
 import jakarta.validation.constraints.NotBlank;
 
 public class TaskDtos {
